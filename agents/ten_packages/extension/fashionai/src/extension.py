@@ -29,7 +29,7 @@ class FashionAIExtension(AsyncExtension):
     token = ""
     channel = ""
     stream_id = 0
-    service_id = "agora"
+    service_id = "agoramultimodel"
 
     async def on_init(self, ten_env: AsyncTenEnv) -> None:
         logger.info("FASHION_AI on_init *********************************************************")
